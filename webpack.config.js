@@ -35,7 +35,11 @@ module.exports = {
         options: { outputPath: 'images' }
       }
     ]
-      }
+      },
+      {
+        test: /\.mp3$/,
+        loader: 'file-loader'
+    }
     ]
   }
 };
